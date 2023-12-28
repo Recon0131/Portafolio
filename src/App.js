@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Inicio from "./components/Inicio";
+import Proyectos from "./components/Proyectos";
+import Social from "./components/Social";
+import Email from './components/Email.jsx'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" m-auto grid max-w-3xl my-20 gap-10">
+      <Inicio/>
+      <hr className=" border border-gray-600 rounded-md"/>
+      <Proyectos/>
+      <hr className=" border border-gray-600 rounded-md"/>
+      <Social/>
+      <hr className=" border border-gray-600 rounded-md"/>
+      <Email/>
     </div>
   );
 }
