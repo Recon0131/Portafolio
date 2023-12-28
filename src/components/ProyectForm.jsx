@@ -13,7 +13,7 @@ function ProyectForm({href,tecnologies,hrefGit,description,tittle,image}) {
           rel="noreferrer"
           target="_blank"
         >
-          <div className=" relative w-96 h-50 bg-background-image rounded-lg overflow-hidden group-hover:cursor-pointer">
+          <div className=" relative w-96 h-50 dark:bg-background-image bg-background-image-white rounded-lg overflow-hidden group-hover:cursor-pointer">
             <img
               src={image}
               width="400"
@@ -23,8 +23,8 @@ function ProyectForm({href,tecnologies,hrefGit,description,tittle,image}) {
           </div>
         </a>
         <div className=" ml-5">
-          <h1 className=" font-bold">{tittle}</h1>
-          <p>
+          <h1 className=" font-bold dark:text-zinc-200 text-zinc-800">{tittle}</h1>
+          <p className=" dark:text-zinc-200 text-zinc-600">
             {description}
           </p>
           <section className=" flex-col my-5 mx-2 space-x-3">
@@ -36,17 +36,17 @@ function ProyectForm({href,tecnologies,hrefGit,description,tittle,image}) {
           </section>
           <div className="flex w-fit gap-5 ">
             <a
-              className="flex bg-zinc-100 text-zinc-900 text-xl font-bold w-fit px-4 py-2 gap-1 m-auto rounded-lg "
+              className="flex bg-zinc-900 text-zinc-100 dark:bg-zinc-100 dark:text-zinc-900 text-xl font-bold w-fit px-4 py-2 gap-1 m-auto rounded-lg"
               href={hrefGit}
               rel="noreferrer"
               target="_blank"
             >
               <h1 className=" my-auto">Code</h1>
-              <GitHub className=" my-auto"/>
+              <GitHub className=" my-auto dark:text-zinc-900"/>
               
             </a>
             <a
-              className="flex bg-zinc-100 text-zinc-900 text-xl font-bold w-fit px-4 py-1 m-auto rounded-lg group transition-all"
+              className="flex bg-zinc-900 text-zinc-100 dark:bg-zinc-100 dark:text-zinc-900 text-xl font-bold w-fit px-4 py-1 m-auto rounded-lg group transition-all"
               href={href}
               rel="noreferrer"
               target="_blank"

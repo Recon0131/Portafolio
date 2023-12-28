@@ -10,7 +10,7 @@ import Express from '../icons/Express'
 function Proyectos() {
   return (
     <div className="text-zinc-200 mx-auto">
-      <h1 className=" font-bold text-2xl mx-5">
+      <h1 className=" font-bold text-2xl mx-5 text-color-text-cv dark:text-zinc-200">
         Proyectos <WorkTwoToneIcon fontSize="large" />
       </h1>
       <section className=" flex my-10">

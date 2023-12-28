@@ -33,8 +33,8 @@ function Email() {
   };
 
   return (
-    <div className="text-zinc-200 m-5">
-      <section className="flex my-2 gap-2">
+    <div className="dark:text-zinc-200 mx-3 text-color-text-cv">
+      <section className="flex mb-2 gap-2">
         <h1 className="font-bold text-2xl">Email</h1>
         <CopyToClipboard text="raihuerta01@gmail.com">
           <button onClick={()=> toast("Email copiado")}>
@@ -58,7 +58,7 @@ function Email() {
             type="email"
             {...register("from_name", { required: true })}
             name="from_name"
-            className=" bg-background-email rounded-xl p-2"
+            className=" dark:bg-background-email bg-background-image-white dark:text-zinc-200 text-zinc-800 rounded-xl p-2"
           ></input>
           {errors.from_name && (
             <span className=" text-red-500">A email is required</span>
@@ -72,7 +72,7 @@ function Email() {
             cols="15"
             rows="5"
             {...register("message", { required: true })}
-            className=" bg-background-email rounded-xl p-2 "
+            className=" dark:bg-background-email bg-background-image-white dark:text-zinc-200 text-zinc-800 rounded-xl p-2 "
           ></textarea>
           {errors.message && (
             <span className=" text-red-500">A message is required </span>
@@ -80,7 +80,7 @@ function Email() {
         </section>
 
         <input
-          className=" bg-background-buttom-dark px-4 py-2 my-4 rounded-xl cursor-pointer hover:bg-background-buttom-dark-hover"
+          className=" bg-background-buttom-white px-4 py-2 my-4 rounded-xl cursor-pointer text-zinc-700 "
           type="submit"
           value="Enviar"
           

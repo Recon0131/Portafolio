@@ -6,7 +6,7 @@ function Inicio() {
     
 
   return (
-    <section className=' text-zinc-200'>
+    <section className=' dark:text-zinc-200 text-color-text-white'>
           <div className=' flex w-fit  rounded-porcent p-2 bg-color-rounded float-right my-9 movil:float-none movil:mx-auto  tablet:float-none tablet:mx-auto '>
           <img src='https://res.cloudinary.com/dpuap0fag/image/upload/v1703436869/0540202222367_u2orcv.png' alt='face' height="50" width="150" className=' rounded-porcent h-36 movil:h-48 movil:w-44 tablet:h-48 tablet:w-44'/>
           </div>
@@ -19,7 +19,7 @@ function Inicio() {
              siempre actualizándome en las últimas tendencias y tecnologías. Estoy comprometido y perseverante en crear mi camino 
              como desarrollador web y actualmente busco adquirir experiencia en el mercado laboral.
           </p>
-          <a href='https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9283ed0a-4953-437f-a679-ca9d613c2c9a' rel="noreferrer" target="_blank" className=' flex w-fit bg-background-buttom-dark px-6 py-2 font-bold my-5 rounded-xl hover:bg-background-buttom-dark-hover transition-all movil:mx-auto tablet:mx-auto'> <ContactPageTwoToneIcon/>  Curriculum </a>
+          <a href='https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9283ed0a-4953-437f-a679-ca9d613c2c9a' rel="noreferrer" target="_blank" className=' flex w-fit bg-background-buttom-white hover:bg-background-buttom-white-hover text-color-text-cv dark:text-zinc-200 dark:bg-background-buttom-dark px-6 py-2 font-bold my-5 rounded-xl dark:hover:bg-background-buttom-dark-hover transition-all movil:mx-auto tablet:mx-auto'> <ContactPageTwoToneIcon/>  Curriculum </a>
           
     </section>
   )
