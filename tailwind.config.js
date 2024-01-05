@@ -21,6 +21,7 @@ module.exports = {
         "color-text-cv": "#818CF8",
         "color-rounded": "#171E2D",
         "color-tail": "#19B5B9",
+        "color-graph":"#e10098",
         "color-mongo": "#13aa52",
         "hover-buttom-social":"#494646",
         "linkedin": "#0284C7",

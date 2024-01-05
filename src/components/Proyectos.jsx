@@ -6,6 +6,8 @@ import Tailwind from "../icons/Tailwind";
 import ProyectForm from "./ProyectForm";
 import Mongodb from '../icons/Mongodb'
 import Express from '../icons/Express'
+import Vite from "../icons/Vite";
+import Graphql from "../icons/Graphql";
 
 function Proyectos() {
   return (
@@ -13,6 +15,16 @@ function Proyectos() {
       <h1 className=" font-bold text-2xl mx-5 text-color-text-cv dark:text-zinc-200">
         Proyectos <WorkTwoToneIcon fontSize="large" />
       </h1>
+      <section className=" flex my-10">
+      <ProyectForm
+          href="https://frontend-proyect3.onrender.com/"
+          tittle="Fake Store"
+          description="Web hecha en forma de practica. Aun en desarrollo. Pensando en implementar, likes, dislikes, imagenes, videos, sistema de hashtag stacks y chats."
+          image="https://res.cloudinary.com/dpuap0fag/image/upload/v1704478286/Page3_mkagcj.png"
+          tecnologies={[<Vite />, <Mongodb />, <Tailwind />,<Express/>,<Graphql/>]}
+          hrefGit="https://github.com/Recon0131/proyect3-frontend"
+        />
+      </section>
       <section className=" flex my-10">
       <ProyectForm
           href="https://practicefakestore.vercel.app/"
