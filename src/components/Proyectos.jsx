@@ -18,7 +18,7 @@ function Proyectos() {
       <section className=" flex my-10">
       <ProyectForm
           href="https://frontend-proyect3.onrender.com/"
-          tittle="Fake Store"
+          tittle="FriendFind"
           description="Web hecha en forma de practica. Aun en desarrollo. Pensando en implementar, likes, dislikes, imagenes, videos, sistema de hashtag stacks y chats."
           image="https://res.cloudinary.com/dpuap0fag/image/upload/v1704478286/Page3_mkagcj.png"
           tecnologies={[<Vite />, <Mongodb />, <Tailwind />,<Express/>,<Graphql/>]}
